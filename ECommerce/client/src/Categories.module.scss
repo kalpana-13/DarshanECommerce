@@ -1,0 +1,20 @@
+.Categories {
+    width: 100vw;
+    height: 25vh;
+    background-color: cyan;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    .cards {
+        height: 22vh;
+        width: 10vw;
+        background-color: grey;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

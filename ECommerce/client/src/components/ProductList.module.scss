@@ -1,0 +1,17 @@
+.Products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    padding-top: 10vh;
+    transition: all 1s ease-in-out;
+}
+
+.light {
+    background-color: white;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}

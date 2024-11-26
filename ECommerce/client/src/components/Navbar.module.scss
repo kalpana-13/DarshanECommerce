@@ -1,0 +1,126 @@
+.Navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: #000037;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 30;
+
+
+
+    .logo {
+        font-size: 22px;
+        display: flex;
+        gap: 7px;
+        align-items: center;
+        font-weight: 800;
+        color: white;
+
+    }
+
+    .searchBar {
+
+        input {
+            width: 40vw;
+            height: 4vh;
+            border-radius: 10px;
+            border: none;
+            padding-left: 10px;
+        }
+
+        svg {
+            background-color: orange;
+            position: absolute;
+            height: 30px;
+            width: 39px;
+            right: 523px;
+            border-radius: 1px 6px 6px 0px;
+            color: black;
+        }
+    }
+
+    .user {
+        border-radius: 50%;
+        background-color: grey;
+        height: 30px;
+        width: 30px;
+    }
+
+    .cart {
+        margin-right: 30px;
+        cursor: pointer;
+
+        p {
+            position: absolute;
+            background-color: red;
+            height: 19px;
+            width: 17px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 13px;
+            right: 220px;
+        }
+    }
+
+    .login {
+        padding-top: 4px;
+        background-color: cyan;
+        height: 26px;
+        width: 82px;
+        text-align: center;
+        border-radius: 3px;
+
+        a {
+            color: black;
+            font-weight: bold;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    button {
+        z-index: 5;
+    }
+
+
+    .darkmode {
+        cursor: pointer;
+        margin-right: 46px;
+
+        .remove_bookmark {
+            // transform: rotateY(180deg);
+            transform: rotateZ(180deg);
+            transition: all 1s ease;
+        }
+
+        .remove_bookmark_unactive {
+            // transform: rotateY(360deg);
+            transform: rotateZ(360deg);
+            transition: all 1s ease;
+        }
+
+        .add_bookmark {
+            // transform: rotateY(180deg);
+            transform: rotateZ(180deg);
+            transition: all 1s ease;
+        }
+
+        .add_bookmark_unactive {
+            // transform: rotateY(360deg);
+            transform: rotateZ(360deg);
+            transition: all 1s ease;
+        }
+    }
+
+
+}

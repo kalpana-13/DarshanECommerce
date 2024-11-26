@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "productImage": "https://picsum.photos/150/220?random=101",
+        "title": "E-Reader",
+        "description": "Carry thousands of books with you in one lightweight device.",
+        "price": "$129.99",
+        "rating": "4.7",
+        "category": "Books"
+    },
+    {
+        "id": 2,
+        "productImage": "https://picsum.photos/150/220?random=102",
+        "title": "4K Smart TV",
+        "description": "Enjoy stunning visuals with our ultra-high-definition Smart TV.",
+        "price": "$599.99",
+        "rating": "4.8",
+        "category": "Electronics"
+    },
+    {
+        "id": 3,
+        "productImage": "https://picsum.photos/150/220?random=103",
+        "title": "Leather Jacket",
+        "description": "Stay stylish and warm with this premium leather jacket.",
+        "price": "$199.99",
+        "rating": "4.6",
+        "category": "Fashion"
+    },
+    {
+        "id": 4,
+        "productImage": "https://picsum.photos/150/220?random=104",
+        "title": "Gaming Console",
+        "description": "Next-generation gaming performance and graphics.",
+        "price": "$499.99",
+        "rating": "4.9",
+        "category": "Gaming"
+    },
+    {
+        "id": 5,
+        "productImage": "https://picsum.photos/150/220?random=105",
+        "title": "Smart Refrigerator",
+        "description": "Keep your food fresh with smart technology.",
+        "price": "$999.99",
+        "rating": "4.7",
+        "category": "Home Appliances"
+    },
+    {
+        "id": 6,
+        "productImage": "https://picsum.photos/150/220?random=106",
+        "title": "Fantasy Novel",
+        "description": "Dive into a magical world with this best-selling fantasy novel.",
+        "price": "$14.99",
+        "rating": "4.8",
+        "category": "Books"
+    },
+    {
+        "id": 7,
+        "productImage": "https://picsum.photos/150/220?random=107",
+        "title": "Noise-Cancelling Headphones",
+        "description": "Immerse yourself in music with premium sound quality.",
+        "price": "$149.99",
+        "rating": "4.6",
+        "category": "Electronics"
+    },
+    {
+        "id": 8,
+        "productImage": "https://picsum.photos/150/220?random=108",
+        "title": "Electric Grill",
+        "description": "Prepare delicious grilled meals indoors.",
+        "price": "$89.99",
+        "rating": "4.4",
+        "category": "Home Appliances"
+    },
+    {
+        "id": 9,
+        "productImage": "https://picsum.photos/150/220?random=109",
+        "title": "Gaming Mouse",
+        "description": "Achieve precision and comfort with this ergonomic gaming mouse.",
+        "price": "$59.99",
+        "rating": "4.8",
+        "category": "Gaming"
+    },
+    {
+        "id": 10,
+        "productImage": "https://picsum.photos/150/220?random=110",
+        "title": "Designer Handbag",
+        "description": "Upgrade your look with this stylish designer handbag.",
+        "price": "$249.99",
+        "rating": "4.7",
+        "category": "Fashion"
+    },
+    {
+        "id": 11,
+        "productImage": "https://picsum.photos/150/220?random=111",
+        "title": "Robot Vacuum Cleaner",
+        "description": "Effortlessly keep your floors clean with smart technology.",
+        "price": "$299.99",
+        "rating": "4.9",
+        "category": "Home Appliances"
+    },
+    {
+        "id": 12,
+        "productImage": "https://picsum.photos/150/220?random=112",
+        "title": "Classic Literature Collection",
+        "description": "Explore timeless stories in this curated collection of classics.",
+        "price": "$39.99",
+        "rating": "4.5",
+        "category": "Books"
+    },
+    {
+        "id": 13,
+        "productImage": "https://picsum.photos/150/220?random=113",
+        "title": "Gaming Chair",
+        "description": "Sit comfortably during long gaming sessions.",
+        "price": "$199.99",
+        "rating": "4.8",
+        "category": "Gaming"
+    },
+    {
+        "id": 14,
+        "productImage": "https://picsum.photos/150/220?random=114",
+        "title": "Wireless Earbuds",
+        "description": "Compact and convenient for music on the go.",
+        "price": "$79.99",
+        "rating": "4.6",
+        "category": "Electronics"
+    },
+    {
+        "id": 15,
+        "productImage": "https://picsum.photos/150/220?random=115",
+        "title": "Winter Coat",
+        "description": "Stay warm and stylish in cold weather.",
+        "price": "$179.99",
+        "rating": "4.7",
+        "category": "Fashion"
+    },
+    {
+        "id": 16,
+        "productImage": "https://picsum.photos/150/220?random=116",
+        "title": "Smart Light Bulbs",
+        "description": "Control your lighting with voice commands or an app.",
+        "price": "$49.99",
+        "rating": "4.6",
+        "category": "Home Appliances"
+    },
+    {
+        "id": 17,
+        "productImage": "https://picsum.photos/150/220?random=117",
+        "title": "Sci-Fi Book Set",
+        "description": "Explore futuristic worlds with these thrilling sci-fi novels.",
+        "price": "$59.99",
+        "rating": "4.8",
+        "category": "Books"
+    },
+    {
+        "id": 18,
+        "productImage": "https://picsum.photos/150/220?random=118",
+        "title": "Gaming Keyboard",
+        "description": "Responsive keys designed for competitive gaming.",
+        "price": "$109.99",
+        "rating": "4.9",
+        "category": "Gaming"
+    },
+    {
+        "id": 19,
+        "productImage": "https://picsum.photos/150/220?random=119",
+        "title": "Bluetooth Speaker",
+        "description": "Take your music anywhere with this portable speaker.",
+        "price": "$49.99",
+        "rating": "4.4",
+        "category": "Electronics"
+    },
+    {
+        "id": 20,
+        "productImage": "https://picsum.photos/150/220?random=120",
+        "title": "Formal Shoes",
+        "description": "Complete your formal attire with these elegant shoes.",
+        "price": "$139.99",
+        "rating": "4.6",
+        "category": "Fashion"
+    }
+]

@@ -1,0 +1,58 @@
+.Categories {
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 1s ease-in-out;
+
+
+    li {
+        list-style-type: none;
+
+
+        .categoryImage {
+            border-radius: 51%;
+            height: 181px;
+            width: 175px;
+            transition: all 0.5s ease-in-out;
+            position: relative;
+            z-index: 5;
+        }
+
+        .categoryImage:hover {
+            scale: 1.05;
+
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        h4 {
+            text-align: center;
+            color: black;
+            margin-top: 24px;
+            text-decoration-line: none;
+        }
+    }
+
+    li:hover {
+        text-decoration: underline;
+    }
+
+
+}
+
+.light {
+    background-color: aliceblue;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+
+    h4 {
+        color: white !important;
+    }
+}

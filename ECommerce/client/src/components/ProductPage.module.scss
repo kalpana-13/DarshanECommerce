@@ -1,0 +1,131 @@
+.ProductPage {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10vh;
+
+    .main {
+        background-color: aliceblue;
+        width: 80vw;
+        height: 80vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 30px;
+
+        .images {
+            width: 40%;
+
+            img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+                width: 331px;
+            }
+        }
+
+        .info {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .rating {
+                background-color: green;
+                display: flex;
+                width: 61px;
+                height: 27px;
+                align-items: center;
+                justify-content: center;
+                border-radius: 5px;
+                color: white;
+                gap: 4px;
+            }
+
+            .actions {
+                display: flex;
+                gap: 30px;
+
+                button {
+                    background-color: cyan;
+                    height: 45px;
+                    width: 130px;
+                    border-radius: 7px;
+                    border: none;
+                    box-shadow: inset 0px 0px 16px -3px #001818;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .reviews {
+        width: 80vw;
+        padding: 20px;
+        background-color: #f7f7f7;
+        border-radius: 8px;
+        margin-bottom: 30px;
+
+        h4 {
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .review {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+            p {
+                margin: 5px 0;
+            }
+        }
+    }
+
+    .recommendations {
+        width: 80vw;
+        padding: 20px;
+        background-color: #f7f7f7;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h4 {
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .relatedProducts {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+
+            .relatedProduct {
+                width: 20%;
+                padding: 10px;
+                background-color: white;
+                border-radius: 5px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                text-align: center;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 5px;
+                }
+
+                p {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.Dashboard {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.ordersList {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 30px;
+}
+
+.ordersTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.ordersTable th,
+.ordersTable td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.ordersTable th {
+    background-color: #f4f4f4;
+}
+
+.statusButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.statusButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
